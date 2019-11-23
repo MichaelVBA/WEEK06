@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="about_us_acercade">Acerca de ...</string>
+    <string name="Content_Contenido">Esta aplicación trata de YUGIOH y de reporte de ventas</string>
+    <string name="autors_autores">Autores</string>
+    <string name="autors1_autores">Yugi Moto</string>
+    <string name="autors2_autores">Seto Kaiba</string>
+    <string name="autors3_autores">El Gran Barros</string>
 </resources>

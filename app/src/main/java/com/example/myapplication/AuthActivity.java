@@ -21,11 +21,13 @@ public class AuthActivity extends AppCompatActivity {
         setContentView(R.layout.activity_auth);
         btnLogin = findViewById(R.id.btnLogin);
         txtUser = findViewById(R.id.txtUser);
+        txtPassword = findViewById(R.id.txtPassword);
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if ( txtUser.getText().toString().equals("alcachofa") ) {
+                if (Users.passwordIsValid(txtUser.getText().toString(),
+                        txtPassword.getText().toString()) ) {
                     Intent o = new Intent(AuthActivity.this,
                             MainActivity.class);
                     startActivity(o);
